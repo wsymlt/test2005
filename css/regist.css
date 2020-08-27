@@ -1,0 +1,200 @@
+html,
+body {
+    background-color: #f9f9f9;
+    color: #666;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.wrap {
+    padding-bottom: 40px;
+}
+
+.layout {
+    width: 854px;
+    margin: 0 auto;
+}
+
+.reg-inner {
+    min-height: 400px;
+    background-color: #fff;
+    padding: 0 34px 0px;
+}
+
+/* 头部logo部分 */
+.reg-logo {
+    margin-bottom: 32px;
+}
+
+.reg-logo a {
+    width: 49px;
+    height: 49px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    background-image: url(../images/reg-logo.png);
+    border-radius: 4px;
+}
+
+/* 标题 */
+.reg-tit h4 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+/* 表单注册区域开始 */
+.account {
+    color: #333;
+}
+
+.regbox {
+    width: 332px;
+    padding: 26px 0;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+.username {
+    width: 332px;
+    height: 100px;
+    position: relative;
+}
+
+.title {
+    padding-bottom: 5px;
+}
+
+.regbox input {
+    width: 296px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e0e0e0;
+    text-indent: 10px;
+    background-color: #fff;
+}
+
+.regbox .regist-btn {
+    color: #fff;
+    text-indent: 0;
+    background-color: #ff6700;
+    border: 1px solid rgba(186, 186, 186, .3);
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.regbox .check {
+    width: 14px;
+    height: 14px;
+}
+
+.regist-agreement {
+    padding-left: 2px;
+}
+
+.regist-agreement .p1 {
+    display: inline-block;
+    height: 28px;
+    vertical-align: 2px;
+    margin-left: 6px;
+}
+
+input:focus {
+    border-color: #f12020;
+    /* border-color: #f66; */
+}
+
+.success {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    color: #43842b;
+    margin-left: 2px;
+    background: url(../images/signed-right-icon.png) no-repeat center;
+    vertical-align: -8px;
+}
+
+.dis-box {
+    height: 38px;
+    line-height: 38px;
+    padding-left: 2px;
+    color: #f12020;
+}
+
+.error {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    /* margin-left: 3px; */
+    background: url(../images/signed-error-icon.png) no-repeat center;
+    vertical-align: -5px;
+}
+
+.password {
+    width: 332px;
+    height: 100px;
+    position: relative;
+}
+
+.loginnow {
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+}
+
+.loginnow a {
+    color: #ff6500;
+}
+
+/* 成功错误，提示信息默认隐藏 */
+.regbox i {
+    display: none;
+}
+
+.dis-box {
+    display: none;
+}
+
+/* 底部 */
+.reg-footer {
+    text-align: center;
+    height: 80px;
+    margin-top: 0;
+    position: relative;
+    z-index: 4;
+}
+
+.reg-link span {
+    color: #9d9d9d;
+
+}
+
+.reg-link a {
+    color: #757575;
+    padding: 0 10px;
+    transition: color .2s;
+}
+
+.reg-link .active {
+    color: #333;
+}
+
+.reg-link a:hover {
+    color: #333;
+}
+
+.reg-info {
+    color: #757575;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.reg-info a {
+    vertical-align: 5px;
+}
+

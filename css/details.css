@@ -1,0 +1,297 @@
+/* 商品详情 */
+
+/* 顶部bar */
+
+/* 开始就显示的bar */
+.product-tit {
+    position: relative;
+    z-index: 0;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .07);
+}
+
+.nav-topbar {
+    position: relative;
+    height: 63px;
+    width: 100%;
+    margin-top: 0;
+    color: #616161;
+    line-height: 63px;
+}
+
+/* 开始是隐藏的bar */
+.nav-bar-hidden {
+    position: fixed;
+    top: -10px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    margin-top: -60px;
+    transition: margin-top .3s linear;
+    box-shadow: none;
+}
+
+
+/* 固定定位 实现通栏动画 */
+.nav-fix {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    margin-top: 0;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .07);
+}
+
+.con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-topbar .tit-mi {
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+}
+
+.nav-topbar .right a:hover {
+    color: #ff6700;
+}
+
+
+/* 提示登录栏 */
+.login-notice {
+    background: #f7f7f7;
+    width: 100%;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    color: #333;
+    display: block;
+}
+
+.login-notice a img {
+    width: 12px;
+    vertical-align: -2px;
+}
+
+.login-now {
+    color: #ff6700;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.product-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+
+.img-left {
+    position: relative;
+    width: 606px;
+    height: 750px;
+}
+
+.img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 560px;
+    z-index: 0;
+}
+
+
+
+.img-box .show {
+    width: 100%;
+    height: 100%;
+}
+
+.img-box .show img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 产品右侧 */
+.product-right {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.product-right .mi-air2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #212121;
+}
+
+/* 产品信息描述 */
+
+.product-right .air-info {
+    color: #b0b0b0;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    line-height: 1.5;
+}
+
+/* 版权声明 */
+.company {
+    color: #ff6700;
+    margin-top: 14px;
+}
+
+/* 价格 */
+.price-info {
+    font-size: 18px;
+    line-height: 1;
+    color: #ff6700;
+    padding: 12px 0 10px;
+}
+
+/* 线条 */
+
+.line {
+    margin-top: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* 地址 */
+.address-box {
+    margin: 20px 0;
+}
+
+.product-address {
+    padding: 30px 50px;
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+}
+
+.product-address>i {
+    position: absolute;
+    left: 20px;
+    top: 26px;
+    font-size: 20px;
+    color: #999;
+}
+
+.address-l {
+    display: inline-block;
+}
+
+.address-l span {
+    margin-right: 14px;
+}
+
+.color {
+    color: #ff6700;
+}
+
+
+/* 选择购买模块 */
+.buy-box .buy-child {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.option-box .select {
+    font-size: 18px;
+}
+
+.select-color {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-list {
+    margin-right: 12px;
+    margin-top: 10px;
+    line-height: 42px;
+    height: 42px;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    list-style: none;
+    cursor: pointer;
+    transition: all .2s ease;
+    width: 292px;
+    font-size: 16px;
+    text-align: center;
+    z-index: 3;
+}
+
+.active {
+    border-color: #ff6700;
+    color: #ff6700;
+}
+
+/* 被选中产品的参数信息 */
+.selected-info {
+    background-color: #f9f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.selected-info ul li {
+    line-height: 30px;
+    color: #616161;
+}
+
+.selected-info ul li span {
+    float: right;
+}
+
+.total-price {
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.sale-btn {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sale-btn .btn1 {
+    color: #ff6700;
+    background-color: #ff6700;
+    border: 1px solid #ff6700;
+    color: #fff;
+    display: inline-block;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    text-align: center;
+    transition: all .4s;
+}
+
+.favorite-btn {
+    display: inline-block;
+    width: 140px;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s;
+    font-size: 16px;
+    position: relative;
+    background: #b0b0b0;
+}
+
+.btn2 {
+    color: #fff;
+}
+
+.sale-btn .btn1:hover {
+    background-color: #ff4500;
+}
+
+.favorite-btn:hover {
+    background-color: #616161;
+}

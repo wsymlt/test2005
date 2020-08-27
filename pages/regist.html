@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米-注册</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <script src="../js/jquery-1.12.4.js"></script>
+    <!-- <script src="../js/regist.js"></script> -->
+    <link rel="stylesheet" href="../css/regist.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="wrap">
+            <!-- 主要部分 -->
+            <div class="layout">
+
+
+                <!-- content区域 -->
+                <div class="reg-inner">
+                    <!-- 头部logo部分 -->
+                    <div class="reg-logo">
+                        <a href="./index.html"></a>
+                    </div>
+                    <!-- 标题 -->
+                    <div class="reg-tit">
+                        <h4>注册小米帐号</h4>
+                    </div>
+                    <!-- 表单注册区域开始 -->
+                    <div class="account">
+                        <!-- 输入框 -->
+                        <div class="regbox">
+                            <form action="" class="form-content">
+                                <!-- 1 用户名 -->
+                                <div class="username">
+                                    <h4 class="title">手机号</h4>
+                                    <input type="text" class="new-login-account" name="phone" maxlength="11"
+                                        placeholder="请输入手机号" id="un">
+                                    <!-- 正确 -->
+                                    <i class="success"></i>
+                                    <!-- 错误 -->
+                                    <div class="dis-box">
+                                        <em class="error"></em>
+                                        <span>请输入正确的11位手机号</span>
+                                    </div>
+                                </div>
+                                <!-- 2 密码 -->
+                                <div class="password">
+                                    <h4 class="title">设置密码</h4>
+                                    <input type="text" class="new-login-password" name="password" autocomplete="off"
+                                        placeholder="请输入密码" id="pw">
+                                    <!-- 正确 -->
+                                    <i class="success"></i>
+                                    <!-- 错误 -->
+                                    <div class="dis-box">
+                                        <em class="error"></em>
+                                        <span>长度在8-16位之间，必须包含字母和数字</span>
+                                    </div>
+                                </div>
+                                <!-- 3 确认密码 -->
+                                <!--  <div class="password">
+                                    <h4 class="title">确认密码</h4>
+                                    <input type="password" class="new-login-password
+                                    " name="password" autocomplete="off" placeholder="请输入密码">
+                                    <i class="success"></i>
+                                    <div class="dis-box">
+                                        <em class="error"></em>
+                                        <span>前后两次输入的密码不同，请重新输入</span>
+                                    </div>
+                                </div> -->
+                                <!-- 4 版权声明和隐私协议 -->
+                                <div class="regist-agreement">
+                                    <input type="checkbox" checked='checked' class="check">
+                                    <p class="p1">
+                                        我已阅读并接受
+                                        <a href="#">版权声明</a>
+                                        和
+                                        <a href="#">隐私保护</a>
+                                        条款
+                                    </p>
+                                    <p class="tips"></p>
+                                </div>
+                                <!-- 5 注册按钮 -->
+                                <input type="button" class="regist-btn" value="注册" id="submit">
+                                <!-- 6 已有帐号立即登录 -->
+                                <p class="loginnow">
+                                    <a href="./login.html">已有帐号，立即登录</a>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- 表单注册区域结束 -->
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    <!-- 底部 -->
+    <div class="reg-footer">
+        <div class="reg-link">
+            <a href="#" class="active">简体</a><span>|</span>
+            <a href="#">繁体</a><span>|</span>
+            <a href="#">English</a><span>|</span>
+            <a href="#">常见问题</a>
+            </ul>
+        </div>
+        <p class="reg-info">
+            小米公司版权所有-京ICP备10046444-
+            <a href="#">
+                <img src="../images/ghs.png" alt="">
+            </a>
+            京公网网安备11010892020134号-京ICP证110507号
+        </p>
+    </div>
+</body>
+<script src="../js/regist.js"></script>
+
+</html>
